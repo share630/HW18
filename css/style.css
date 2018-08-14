@@ -1,0 +1,176 @@
+/* General font and sizing */
+
+body {
+  color: white;
+  background-color: black;
+}
+
+/* Modify container to hold all content */
+
+.container {
+  margin: 80px auto 15px auto;
+  background: black;
+}
+
+/* Move header down */
+
+header {
+  margin-top: -75px;
+}
+
+/* Make profile picture into a "circle" */
+
+header img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* H1 styling */
+
+h1 {
+  font-size: 30px;
+}
+
+h1 span {
+  color: white;
+}
+
+/* H2 styling */
+
+h2 {
+  color: #05C79B;
+  font-size: 20px;
+}
+
+h2::before {
+  content: "//";
+  margin-right: 5px;
+}
+
+/* Undo default list styling */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Education section */
+
+.educationSchool {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
+/* Experience list items */
+
+.experienceItem {
+  margin-bottom: 30px;
+}
+
+.experienceItem strong {
+  font-size: 16px;
+}
+
+.experienceJob {
+  text-align: right;
+}
+
+.experienceYear {
+  color: white;
+}
+
+.experienceDescription {
+  display: none;
+}
+
+/* Contact list icons */
+
+a i {
+  font-size: 30px;
+  color: #aaa;
+}
+
+.col-md-1,
+.col-md-11 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contactText {
+  display: none;
+    color: white;
+}
+
+/* Skills list items */
+
+.skillItem {
+  background-color: #05C79B;
+  color: white;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Hobbies list items */
+
+.hobbyRow {
+  margin-left: 0px;
+}
+
+.hobbyItem {
+  background-color: #05C79B;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Facts list items */
+
+.factItem {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* If screen is 480px or larger (ie. phones) */
+
+@media (min-width: 480px) {
+}
+
+/* If screen is 840px or larger (ie. tablets) */
+
+@media (min-width: 840px) {
+  a {
+    font-size: 14px;
+  }
+
+  .experienceJob {
+    text-align: left;
+  }
+
+  .experienceDescription {
+    display: block;
+  }
+}
+
+/* If screen is 1024px or larger (ie. desktop) */
+
+@media (min-width: 1024px) {
+
+  /* H1 styling */
+
+  h1 {
+    font-size: 26px;
+  }
+
+  /* H2 styling */
+
+  h2 {
+    font-size: 16px;
+  }
+}
